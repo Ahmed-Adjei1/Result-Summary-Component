@@ -2,7 +2,7 @@ body {
   font-family: "Hanken Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsla(234, 85%, 45%, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +15,8 @@ main {
   grid-template-rows: 500px;
   background-color: hsl(0, 0%, 100%);
   max-width: 660px;
-  border-radius: 0 20px 20px 0;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 .result {
@@ -168,3 +169,4 @@ button:hover {
 button:focus {
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
+
